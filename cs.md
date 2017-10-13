@@ -15,7 +15,7 @@
 
 # Tasks
 ## 1-3. Complete the following tasks:
-- [Count characters](counthars/CountChars.cs)
+- [Count characters](countchars/CountChars.cs)
 - [Word reverser](wordreverser/Wordreverser.cs)
 - [PokeBag](pokebag/PokeBag.cs)
 
