@@ -15,9 +15,9 @@
 
 # Tasks
 ## 1-3. Complete the following tasks:
-- [Count characters](countchars/CountChars.cs)
-- [Word reverser](wordreverser/Wordreverser.cs)
-- [PokeBag](pokebag/PokeBag.cs)
+- [Count characters](countchars/CountChars.java)
+- [Word reverser](wordreverser/WordReverser.java)
+- [PokeBag](pokebag/PokeBag.java)
 
 ### Acceptance criteria
 The application is accepted if:
