@@ -19,8 +19,8 @@ namespace CountChars
 
         public static void CountChars1(string path)
         {
-            string text = File.ReadAllText(path);
             Dictionary<string, int> article = new Dictionary<string, int>();
+            string text = File.ReadAllText(path);          
             string[] words = text.Split(' ');
 
             foreach (string word in words)
