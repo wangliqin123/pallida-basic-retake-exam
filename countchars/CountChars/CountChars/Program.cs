@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace CountChars
@@ -12,12 +9,11 @@ namespace CountChars
         static void Main(string[] args)
         {
             string path = @"c:\Users\VatoLoco\greenfox\pallida-basic-retake-exam\countchars\da_vinci_code.txt";
-            CountChars1(path);
-            //Console.WriteLine(article);
+            CountingChars(path);
             Console.ReadLine();
         }
 
-        public static void CountChars1(string path)
+        public static void CountingChars(string path)
         {
             Dictionary<string, int> article = new Dictionary<string, int>();
             string text = File.ReadAllText(path);          
