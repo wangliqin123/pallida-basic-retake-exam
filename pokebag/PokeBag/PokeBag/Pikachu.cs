@@ -11,8 +11,9 @@ namespace PokeBag
         public Pikachu()
         {
             this.HP = 12;
-            this.speak = "Pika-pika";
+            this.speak = "Pika-pika";         
         }
+
 
         public override void Speak()
         {

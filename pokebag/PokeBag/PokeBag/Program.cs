@@ -12,20 +12,19 @@ namespace PokeBag
         {
             PokeBag pokeBag = new PokeBag();
 
-            List<Pokemon> pokemons = new List<Pokemon>();
-
             Pikachu pikachu1 = new Pikachu();
             Pikachu pikachu2 = new Pikachu();
             Bubasaur bubasaur1 = new Bubasaur();
             Bubasaur bubasaur2 = new Bubasaur();
             Charmander charmander1 = new Charmander();
 
-            pokemons.Add(pikachu1);
+            pokeBag.Add(pikachu1);
             pokeBag.Add(pikachu2);
             pokeBag.Add(bubasaur1);
             pokeBag.Add(bubasaur2);
             pokeBag.Add(charmander1);
             // 
+            pokeBag.Speak();
             Console.WriteLine(pokemons[0].Speak());
 
             // 
