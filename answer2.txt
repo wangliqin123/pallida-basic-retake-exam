@@ -1,0 +1,8 @@
+1.
+2.represents what returning the method
+3.method name
+4. methods' parameter variable/data type
+5. method's parameter variable name
+6. local variable, declared inside the method
+7.
+8. returnin value

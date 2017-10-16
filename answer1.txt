@@ -1,0 +1,5 @@
+Use inheritence when you have a base class, and derived classes, 
+and you want to give acces derived classes to the base class.
+The derived class inherit all members of the base class except contructors. 
+The derived class would be able to acces those members would 
+depend upon the acessibility of those members in the base class.
