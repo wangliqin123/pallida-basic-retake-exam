@@ -6,16 +6,24 @@ using System.Threading.Tasks;
 
 namespace PokeBag
 {
-    class PokeBag
+    public class PokeBag
     {
-        string type;
-        int HP;
-        int strenght;
-        string speak;
+        public string type;
+        public int HP;
+        public int strenght;
+        public string speak;
 
-        PokeBag()
+        List<PokeBag> pokemons = new List<PokeBag>();
+
+
+
+        public void Add(PokeBag pokemon)
         {
-            List<Pokemon> pokemons = new List<Pokemon>();
+            pokemons.Add(pokemon);
+        }
+        public virtual void Speak()
+        {
+            Console.WriteLine("");
         }
     }
 }
