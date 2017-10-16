@@ -16,21 +16,17 @@ namespace Wordreverser
             //
             string reversedWords = WordReverser("lleW ,enod taht saw ton taht drah");
             Console.WriteLine(reversedWords);
-            string reversed = "lleW ,enod taht saw ton taht drah";
+            Console.ReadLine();
            
-            string updatereversed = "";
+            
+
     
         }
 
-        public static string WordReverser()
+        public static string WordReverser(string reversedWords)
         {
-            //for (int i = reversed.Length - 1; i >= 0; i--)
-            //{
-            //    updatereversed = updatereversed + reversed[i];
-            //}
-            //Console.WriteLine(updatereversed);
-            //Console.ReadLine();
-            text = String.Join(" ", text.Split(' ').Reverse().ToArray())
+
+            return reversedWords = String.Join(" ", reversedWords.Split(' ').Reverse().ToArray());
 
         }
     }
