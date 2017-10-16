@@ -13,10 +13,11 @@ namespace CountChars
         {
             string path = @"c:\Users\VatoLoco\greenfox\pallida-basic-retake-exam\countchars\da_vinci_code.txt";
             CountChars1(path);
-            Console.WriteLine(article);
+            //Console.WriteLine(article);
+            Console.ReadLine();
         }
 
-        public static Dictionary<string, int> CountChars1(string path)
+        public static void CountChars1(string path)
         {
             string text = File.ReadAllText(path);
             Dictionary<string, int> article = new Dictionary<string, int>();
@@ -41,11 +42,6 @@ namespace CountChars
                     Console.WriteLine("\"" + vocable.Key + "\"" + " " + vocable.Value);
                 }
             }
-
-            return;
-            //reads the given file, and counts the occurences of 0, 1 and x characters in it.
-            // The function should return a dictionary in which the searched characters are the keys 
-            //and the number of their occurences are the values.
         }
     }
 }
