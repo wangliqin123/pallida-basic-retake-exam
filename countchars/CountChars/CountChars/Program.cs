@@ -41,8 +41,8 @@ namespace CountChars
                     Console.WriteLine("\"" + vocable.Key + "\"" + " " + vocable.Value);
                 }
             }
-        
-            return vocable;
+
+            return;
             //reads the given file, and counts the occurences of 0, 1 and x characters in it.
             // The function should return a dictionary in which the searched characters are the keys 
             //and the number of their occurences are the values.
