@@ -28,5 +28,10 @@ namespace PokeBag
         {
             Console.WriteLine("");
         }
+
+        public void GetStrongest()
+        {
+
+        }
     }
 }

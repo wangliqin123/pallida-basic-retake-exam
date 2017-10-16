@@ -19,6 +19,9 @@ namespace PokeBag
             pokeBag.Add(bubasaur1);
             pokeBag.Add(bubasaur2);
             pokeBag.Add(charmander);
+
+            pokeBag.Speak();
+            pokeBag.GetStrongest();
         }
     }
 }
