@@ -17,23 +17,23 @@ namespace CountChars
         {
             Dictionary<string, int> article = new Dictionary<string, int>();
             string text = File.ReadAllText(path);          
-            string[] words = text.Split(' ');
+            string[] characters = text.Split(' ');
 
-            foreach (string word in words)
+            foreach (string character in characters)
             {
-                if (article.ContainsKey(word))
+                if (article.ContainsKey(character))
                 {
-                    article[word]++;
+                    article[character]++;
                 }
                 else
                 {
-                    article[word] = 1;
+                    article[character] = 1;
                 }
             }
 
             foreach (KeyValuePair<string, int> vocable in article)
             {
-                if (vocable.Value > 2)
+                if (vocable.Value > 1000)
                 {
                     Console.WriteLine("\"" + vocable.Key + "\"" + " " + vocable.Value);
                 }
