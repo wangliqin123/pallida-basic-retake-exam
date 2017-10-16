@@ -25,8 +25,14 @@ namespace Wordreverser
 
         public static string WordReverser(string reversedWords)
         {
+            string[] words = reversedWords.Split(' ');
+            foreach (string word in words)
+            {
+                word.Reverse().ToString();
+            }
+            return reversedWords;
 
-            return reversedWords = String.Join(" ", reversedWords.Split(' ').Reverse().ToArray());
+          
 
         }
     }
