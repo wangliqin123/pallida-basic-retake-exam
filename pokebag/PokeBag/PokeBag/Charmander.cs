@@ -8,7 +8,7 @@ namespace PokeBag
 {
     public class Charmander : PokeBag
     {
-        Charmander()
+        public Charmander()
         {
             this.HP = 10;
             this.speak = "Char-char";
@@ -16,7 +16,7 @@ namespace PokeBag
 
         public override void Speak()
         {
-            Console.WriteLine("3");
+            Console.WriteLine(speak);
         }
     }
 }

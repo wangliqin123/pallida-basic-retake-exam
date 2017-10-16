@@ -13,7 +13,7 @@ namespace PokeBag
         public int strenght;
         public string speak;
 
-        List<PokeBag> pokemons = new List<PokeBag>();
+        public List<PokeBag> pokemons = new List<PokeBag>();
 
 
 
