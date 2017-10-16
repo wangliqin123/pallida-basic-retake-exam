@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PokeBag
 {
@@ -23,13 +19,8 @@ namespace PokeBag
             pokeBag.Add(bubasaur1);
             pokeBag.Add(bubasaur2);
             pokeBag.Add(charmander1);
-            // 
-            pokeBag.Speak();
-            Console.WriteLine(pokemons[0].Speak());
 
-            // 
-            // var stongestPokemon = pokeBag.GetStrongest();
-            // Should return the pokemon with the highest strength value
+            pokeBag.Speak();
         }
     }
 }

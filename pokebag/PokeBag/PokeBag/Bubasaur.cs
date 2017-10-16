@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PokeBag
 {
@@ -11,7 +7,12 @@ namespace PokeBag
         public Bubasaur()
         {
             this.HP = 10;
-            this.speak = "Char-char";
+            this.speak = "Bulba-saur";
+        }
+
+        public override void Speak()
+        {
+            Console.WriteLine(speak);
         }
     }
 }
