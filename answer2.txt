@@ -1,8 +1,8 @@
-1.head
-2.represents what returning the method
+1.declaring the method
+2.represents what returning the method/ return type
 3.method name
 4. methods' parameter variable/data type
 5. method's parameter variable name
 6. local variable, declared inside the method
 7. body
-8. returnin value
+8. returning result/value
