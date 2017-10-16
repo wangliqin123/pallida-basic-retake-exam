@@ -17,23 +17,19 @@ namespace Wordreverser
             string reversedWords = WordReverser("lleW ,enod taht saw ton taht drah");
             Console.WriteLine(reversedWords);
             Console.ReadLine();
-           
-            
-
-    
+   
         }
 
         public static string WordReverser(string reversedWords)
         {
-            string[] words = reversedWords.Split(' ');
+            string[] words = reversedWords.Split(' ').ToArray();
+            
+
             foreach (string word in words)
             {
-                word.Reverse().ToString();
+                Array.Reverse(words);
             }
-            return reversedWords;
-
-          
-
+            return words.ToString();
         }
     }
     
