@@ -5,10 +5,9 @@ namespace PokeBag
 {
     public class PokeBag
     {
-        public string type;
-        public int HP;
-        public int strenght;
+        public int HP;       
         public string speak;
+        public int strenght;
 
         List<PokeBag> pokemons = new List<PokeBag>();
 
